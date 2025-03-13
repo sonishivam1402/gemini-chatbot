@@ -7,7 +7,7 @@ import os
 app = FastAPI()
 
 # Load API key from environment variable
-API_KEY = os.getenv("GEMINI_API_KEY")  # Set this in Render
+API_KEY = "AIzaSyB7LUmSBt01kl-8uCXsGiZQj25on5JF764"  # Set this in Render
 if not API_KEY:
     raise ValueError("GEMINI_API_KEY is missing from environment variables")
 
