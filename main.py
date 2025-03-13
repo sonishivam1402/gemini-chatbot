@@ -32,10 +32,32 @@ def answer_question(request: QuestionRequest):
 
     # Profile information
     profile_info = """
-    My name is Shivam Soni. I am a Full-Stack Developer with expertise in React, Node.js, and mobile development (React Native).
-    I work at a software company and also mentor teams in mobile and MERN web development. I have a BTech in Computer Science and
-    Engineering (2024) and have experience working on SaaS projects, SQLite, and API integrations.
-    """
+My name is Shivam Soni. I am a Full-Stack Developer with expertise in .NET, React, and backend development. 
+I hold a B.Tech in Computer Science Engineering from Navrachana University, Vadodara, with a CGPA of 8.57/10.
+
+I currently work as a Full Stack Developer at UCI India, where I enhance RESTful APIs using .NET, optimize SQL 
+stored procedures, and build AI-powered products. Previously, I worked as a Backend Developer at DECGamingStudio, 
+where I led the development of an immersive AR Farming Game using Unity and Vuforia.
+
+Some key projects I have worked on include:
+- **Timesheet Management System (TMS):** Developed enterprise-grade backend services using .NET Core, C#, SQL Server, 
+  and Azure DevOps, enabling efficient tracking and approval of employee work hours.
+- **Learn-X: Fun Learning Through AR:** Designed interactive AR-based educational mobile applications, leveraging Unity, 
+  C#, and Vuforia to enhance learning experiences for children.
+
+I am proficient in **C#, SQL, JavaScript, HTML, CSS, C, and C++**, with experience in **.NET Core, React, jQuery, 
+Azure Cloud, SQL Server, and REST API development**. 
+
+I am certified in:
+- **AZ-104 Microsoft Certified: Azure Administrator Associate**
+- **AZ-900 Microsoft Certified: Azure Fundamentals**
+- **AWS Academy Graduate – Machine Learning Foundations**
+- **AWS Academy Graduate – Cloud Foundations**
+
+Beyond my professional work, I actively mentor teams in mobile and MERN stack development, sharing my knowledge and 
+guiding them through new technologies.
+"""
+
 
     # Construct the prompt
     prompt = f"""
